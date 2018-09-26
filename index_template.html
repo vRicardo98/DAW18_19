@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>Home | Lab4</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <img class="container mr-auto" src="./UAlg-Logo.jpg" alt="Logo" style="width:100px;"/>
+    <!-- BEGIN MENU -->
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-sm bg-primary navbar-dark rounded">
+        <ul class="navbar-nav">
+          <li class="nav-item"> <a class="nav-link active" href="./index_template.html">{Menu_1}</a> </li>
+        </ul>
+
+        <div class="ml-auto">
+          <ul class="navbar-nav">
+            <li class="nav-item"> <a class="nav-link" href="#">{Menu_2}</a> </li>
+            <li class="nav-item"> <a class="nav-link deactivated" href="#">{Menu_3}</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">{Menu_4}</a> </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- END MENU -->
+
+    <!-- BEGIN POSTS -->
+    <div class="container-fluid">
+      <div class="card" style="width:100%;">
+        <div class="row card-header bg-secondary text-white container-fluid" style="margin:auto; margin-top:25px;">
+            <div class="col-md-10"> {user}  updated: {UPDATED}  created: {CREATED} </div>
+            <div class="list-unstyled text-right col-md-2">{UPDATE}</div>
+        </div>
+
+        <div class="card-footer" style="border:1px solid black;">{MICROPOST}</div>
+      </div>
+    </div>
+    <!-- END POSTS -->
+
+    <footer class="row container-fluid" style="padding:10px; margin:auto;">
+      <div class="col-md-6">© 2018 Desenvolvimento de Aplicações Web</div>
+      <div class="col-md-6 text-right">Designed by Ricardo Vermelho nº57580</div>
+    </footer>
+  </body>
+
+</html>
